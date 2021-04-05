@@ -1,0 +1,385 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9F3FF96F2615B6D200EC1CF3 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF96E2615B6D200EC1CF3 /* Models.swift */; };
+		9F3FF9732615B9F300EC1CF3 /* TimeLogsBusiness.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF9722615B9F300EC1CF3 /* TimeLogsBusiness.swift */; };
+		9F3FF9782615DCCB00EC1CF3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3FF9772615DCCB00EC1CF3 /* Extensions.swift */; };
+		9F643749261AED7500F715F8 /* Persistance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F643748261AED7500F715F8 /* Persistance.swift */; };
+		9F9A5BFF26170D1D001E2F7F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9A5BFE26170D1D001E2F7F /* Realm */; };
+		9F9A5C0126170D1D001E2F7F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 9F9A5C0026170D1D001E2F7F /* RealmSwift */; };
+		9FB9123B26159D8D0074BCEE /* TimeLogsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9123A26159D8D0074BCEE /* TimeLogsApp.swift */; };
+		9FB9123D26159D8D0074BCEE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB9123C26159D8D0074BCEE /* ContentView.swift */; };
+		9FB9123F26159D940074BCEE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9123E26159D940074BCEE /* Assets.xcassets */; };
+		9FB9124226159D940074BCEE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9FB9124126159D940074BCEE /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9F3FF96E2615B6D200EC1CF3 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		9F3FF9722615B9F300EC1CF3 /* TimeLogsBusiness.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogsBusiness.swift; sourceTree = "<group>"; };
+		9F3FF9772615DCCB00EC1CF3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		9F643748261AED7500F715F8 /* Persistance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistance.swift; sourceTree = "<group>"; };
+		9FB9123726159D8D0074BCEE /* TimeLogs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeLogs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FB9123A26159D8D0074BCEE /* TimeLogsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeLogsApp.swift; sourceTree = "<group>"; };
+		9FB9123C26159D8D0074BCEE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9FB9123E26159D940074BCEE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9FB9124126159D940074BCEE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9FB9124326159D940074BCEE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9FB9124426159D950074BCEE /* TimeLogs.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TimeLogs.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9FB9123426159D8D0074BCEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F9A5C0126170D1D001E2F7F /* RealmSwift in Frameworks */,
+				9F9A5BFF26170D1D001E2F7F /* Realm in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9FB9122E26159D8D0074BCEE = {
+			isa = PBXGroup;
+			children = (
+				9FB9123926159D8D0074BCEE /* TimeLogs */,
+				9FB9123826159D8D0074BCEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9FB9123826159D8D0074BCEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9123726159D8D0074BCEE /* TimeLogs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9FB9123926159D8D0074BCEE /* TimeLogs */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9123A26159D8D0074BCEE /* TimeLogsApp.swift */,
+				9F3FF9722615B9F300EC1CF3 /* TimeLogsBusiness.swift */,
+				9F643748261AED7500F715F8 /* Persistance.swift */,
+				9F3FF9772615DCCB00EC1CF3 /* Extensions.swift */,
+				9F3FF96E2615B6D200EC1CF3 /* Models.swift */,
+				9FB9123C26159D8D0074BCEE /* ContentView.swift */,
+				9FB9123E26159D940074BCEE /* Assets.xcassets */,
+				9FB9124326159D940074BCEE /* Info.plist */,
+				9FB9124426159D950074BCEE /* TimeLogs.entitlements */,
+				9FB9124026159D940074BCEE /* Preview Content */,
+			);
+			path = TimeLogs;
+			sourceTree = "<group>";
+		};
+		9FB9124026159D940074BCEE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				9FB9124126159D940074BCEE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9FB9123626159D8D0074BCEE /* TimeLogs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FB9124726159D950074BCEE /* Build configuration list for PBXNativeTarget "TimeLogs" */;
+			buildPhases = (
+				9FB9123326159D8D0074BCEE /* Sources */,
+				9FB9123426159D8D0074BCEE /* Frameworks */,
+				9FB9123526159D8D0074BCEE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeLogs;
+			packageProductDependencies = (
+				9F9A5BFE26170D1D001E2F7F /* Realm */,
+				9F9A5C0026170D1D001E2F7F /* RealmSwift */,
+			);
+			productName = TimeLogs;
+			productReference = 9FB9123726159D8D0074BCEE /* TimeLogs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9FB9122F26159D8D0074BCEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					9FB9123626159D8D0074BCEE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 9FB9123226159D8D0074BCEE /* Build configuration list for PBXProject "TimeLogs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9FB9122E26159D8D0074BCEE;
+			packageReferences = (
+				9F9A5BFD26170D1D001E2F7F /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+			);
+			productRefGroup = 9FB9123826159D8D0074BCEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9FB9123626159D8D0074BCEE /* TimeLogs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9FB9123526159D8D0074BCEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FB9124226159D940074BCEE /* Preview Assets.xcassets in Resources */,
+				9FB9123F26159D940074BCEE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9FB9123326159D8D0074BCEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F3FF9782615DCCB00EC1CF3 /* Extensions.swift in Sources */,
+				9FB9123D26159D8D0074BCEE /* ContentView.swift in Sources */,
+				9F3FF9732615B9F300EC1CF3 /* TimeLogsBusiness.swift in Sources */,
+				9FB9123B26159D8D0074BCEE /* TimeLogsApp.swift in Sources */,
+				9F3FF96F2615B6D200EC1CF3 /* Models.swift in Sources */,
+				9F643749261AED7500F715F8 /* Persistance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		9FB9124526159D950074BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9FB9124626159D950074BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		9FB9124826159D950074BCEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeLogs/TimeLogs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeLogs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TimeLogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appit.TimeLogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		9FB9124926159D950074BCEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = TimeLogs/TimeLogs.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"TimeLogs/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = TimeLogs/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = appit.TimeLogs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9FB9123226159D8D0074BCEE /* Build configuration list for PBXProject "TimeLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB9124526159D950074BCEE /* Debug */,
+				9FB9124626159D950074BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FB9124726159D950074BCEE /* Build configuration list for PBXNativeTarget "TimeLogs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FB9124826159D950074BCEE /* Debug */,
+				9FB9124926159D950074BCEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9F9A5BFD26170D1D001E2F7F /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.7.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9F9A5BFE26170D1D001E2F7F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F9A5BFD26170D1D001E2F7F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		9F9A5C0026170D1D001E2F7F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9F9A5BFD26170D1D001E2F7F /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 9FB9122F26159D8D0074BCEE /* Project object */;
+}
