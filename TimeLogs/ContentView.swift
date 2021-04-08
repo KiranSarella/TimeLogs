@@ -23,13 +23,29 @@ struct ContentView: View {
                                 
                     ) {
                         ForEach(dayLog.timeLogs) { timeLog in
-                            HStack {
-                                Text(timeLog.task)
-                                Spacer()
+                            HStack(alignment: .top) {
+                                
                                 Text(timeLog.getTimeFormatted())
+                                    .frame(width: 70, alignment: .leading)
+                                    .foregroundColor(Color.gray)
+                                    .font(Font.custom("ComicSansMS", size: 10))
+                                
+                                Text(timeLog.task)
+                                    .font(Font.custom("ComicSansMS", size: 14))
+                                
+                                Button(action: {
+                                    // copy to pasteboard
+                                    NSPasteboard.general.clearContents()
+                                    _ = NSPasteboard.general.setString(timeLog.task , forType: .string)
+                                    
+                                }) {
+                                    Image(systemName: "doc.on.doc")
+                                }
+                                .buttonStyle(PlainButtonStyle())
+                                
+                                
+                                Spacer()
                             }
-                            .font(Font.custom("ComicSansMS", size: 14))
-                            
                         }
                     }
                 }
@@ -49,13 +65,6 @@ struct GradientButtonStyle: ButtonStyle {
             .cornerRadius(12.0)
     }
     
-//    func makeBody(configuration: Configuration) -> some View {
-//        configuration.label
-//            .padding(10)
-//            .background(Color(red: 0, green: 0, blue: 0.5))
-//            .foregroundColor(.white)
-//            .clipShape(Capsule())
-//    }
 }
 
 struct HeaderView: View {
@@ -98,7 +107,6 @@ struct InputLogView: View {
                 .font(Font.custom("ComicSansMS", size: 18))
             Spacer()
             Button("Add") {
-                
                 
                 // append to today section logs
                 business.addTimeLog(log)

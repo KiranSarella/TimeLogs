@@ -37,29 +37,6 @@ class TimeLog: Identifiable, Codable {
 }
 
 
-//
-//class TimeLog: Identifiable {
-//    let id = UUID()
-//    var time: String    // HH:mm:ss
-//    var task: String
-//
-//    init(time: String, task: String) {
-//        self.time = time
-//        self.task = task
-//    }
-//
-//    func getTimeFormatted() -> String {
-//
-//        // convert string to date object
-//        let formatter = DateFormatter()
-//        formatter.dateFormat = "HH:mm"
-//        let yourDate: Date? = formatter.date(from: time)
-//        // convert date object to required string format
-//        formatter.dateFormat = "h:mm a"
-//        let updatedString = formatter.string(from: yourDate!)
-//        return updatedString
-//    }
-//}
 
 
 class DayLog: Identifiable, Codable {
