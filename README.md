@@ -1,4 +1,4 @@
-# TiemLogs macOS application (in swiftUI)
+# TimeLogs macOS application (in swiftUI)
 (easy notes to list working hrs tasks with auto timestamp)
 
 - Useful while logging time (in EOD/Weekly)
