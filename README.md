@@ -17,8 +17,6 @@
 
 ## Installation:
 
-**Downloadable link:** https://github.com/KiranSarella/TimeLogs/blob/main/TimeLogs.zip
-
 [Download Here](TimeLogs.zip)
 
 Download TimeLogs.zip -> unzip -> drag TimeLogs.app to /Applications folder
