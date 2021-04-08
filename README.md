@@ -6,7 +6,7 @@
 
 ![Screenshot](timeLogs_screen.png)
 
-## Featuers:
+## Features:
 
 - [x] multiline text support
 - [x] copy to clipboad
